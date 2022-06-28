@@ -1,0 +1,54 @@
+﻿<Properties StartupConfiguration="{1229367B-84B8-418B-A5CC-F7877204A4F6}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Tests/Tests.cs" relfile="StoreApp.Tests/Tests.cs" line="32" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="StoreApp.Data/Test.cs">
+    <Files>
+      <File FileName="StoreApp.Extensions/StringExtensions.cs" Line="1" Column="1" />
+      <File FileName="StoreApp/Program.cs" Line="29" Column="1" />
+      <File FileName="StoreApp/Modules/OrderModule.cs" Line="1" Column="1" />
+      <File FileName="StoreApp.Logic/Modules/CustomerModule.cs" Line="1" Column="1" />
+      <File FileName="StoreApp.Logic/Modules/OrderModule.cs" Line="1" Column="1" />
+      <File FileName="StoreApp.Models/Order.cs" Line="13" Column="1" />
+      <File FileName="StoreApp.Data/SqlCommands.cs" Line="1" Column="1" />
+      <File FileName="StoreApp.Data/DB.cs" Line="39" Column="11" />
+      <File FileName="StoreApp.Models/Customer.cs" Line="1" Column="1" />
+      <File FileName="StoreApp.Models/LineItem.cs" Line="1" Column="1" />
+      <File FileName="StoreApp.Models/StoreFront.cs" Line="1" Column="1" />
+      <File FileName="StoreApp.Models/Product.cs" Line="1" Column="1" />
+      <File FileName="StoreApp.Data/Factories/CustomerFactory.cs" Line="1" Column="1" />
+      <File FileName="StoreApp.Data/Test.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="StoreApp" expanded="True">
+            <Node name="StoreApp" expanded="True">
+              <Node name="Modules" expanded="True" />
+            </Node>
+            <Node name="StoreApp.Extensions" expanded="True" />
+            <Node name="StoreApp.Tests" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="StoreApp" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.StoreApp.Tests PreferredExecutionTarget="MonoDevelop.Default" />
+  <Debugger.DebugSourceFolders>
+    <String>/Users/kantheshamurthy/Library/Caches/VisualStudio/17.0/Symbols/mysql-net/MySqlConnector/dcf491341ae7593a2f25308347ba109b1bc8d1d3</String>
+  </Debugger.DebugSourceFolders>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.StoreApp PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

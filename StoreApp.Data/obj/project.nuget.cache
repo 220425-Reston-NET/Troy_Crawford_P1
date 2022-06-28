@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ph1ZVgKF6CeFjVWOeGoSg+bOLyJJSAfygQnolmcRRQ9tcxYj+WnInf4UGYdIOzBO8OFie+oOHhot8os8PH+Atg==",
+  "success": true,
+  "projectFilePath": "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Data/StoreApp.Data.csproj",
+  "expectedPackageFiles": [
+    "/Users/rolosworld/.nuget/packages/mysqlconnector/2.1.10/mysqlconnector.2.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}

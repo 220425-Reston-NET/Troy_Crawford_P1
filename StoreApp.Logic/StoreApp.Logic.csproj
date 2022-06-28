@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StoreApp.Models\StoreApp.Models.csproj" />
+    <ProjectReference Include="..\StoreApp.Data\StoreApp.Data.csproj" />
+    <ProjectReference Include="..\StoreApp.Extensions\StoreApp.Extensions.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="MySqlConnector" />
+    <None Remove="Modules\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MySqlConnector" Version="2.1.10" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Modules\" />
+  </ItemGroup>
+</Project>

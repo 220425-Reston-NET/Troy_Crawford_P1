@@ -1,0 +1,318 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp/StoreApp.csproj": {}
+  },
+  "projects": {
+    "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Data/StoreApp.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Data/StoreApp.Data.csproj",
+        "projectName": "StoreApp.Data",
+        "projectPath": "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Data/StoreApp.Data.csproj",
+        "packagesPath": "/Users/rolosworld/.nuget/packages/",
+        "outputPath": "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rolosworld/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Extensions/StoreApp.Extensions.csproj": {
+                "projectPath": "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Extensions/StoreApp.Extensions.csproj"
+              },
+              "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Models/StoreApp.Models.csproj": {
+                "projectPath": "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Models/StoreApp.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.1.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Extensions/StoreApp.Extensions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Extensions/StoreApp.Extensions.csproj",
+        "projectName": "StoreApp.Extensions",
+        "projectPath": "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Extensions/StoreApp.Extensions.csproj",
+        "packagesPath": "/Users/rolosworld/.nuget/packages/",
+        "outputPath": "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Extensions/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rolosworld/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Logic/StoreApp.Logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Logic/StoreApp.Logic.csproj",
+        "projectName": "StoreApp.Logic",
+        "projectPath": "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Logic/StoreApp.Logic.csproj",
+        "packagesPath": "/Users/rolosworld/.nuget/packages/",
+        "outputPath": "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Logic/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rolosworld/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Data/StoreApp.Data.csproj": {
+                "projectPath": "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Data/StoreApp.Data.csproj"
+              },
+              "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Extensions/StoreApp.Extensions.csproj": {
+                "projectPath": "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Extensions/StoreApp.Extensions.csproj"
+              },
+              "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Models/StoreApp.Models.csproj": {
+                "projectPath": "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Models/StoreApp.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.1.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Models/StoreApp.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Models/StoreApp.Models.csproj",
+        "projectName": "StoreApp.Models",
+        "projectPath": "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Models/StoreApp.Models.csproj",
+        "packagesPath": "/Users/rolosworld/.nuget/packages/",
+        "outputPath": "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rolosworld/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp/StoreApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp/StoreApp.csproj",
+        "projectName": "StoreApp",
+        "projectPath": "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp/StoreApp.csproj",
+        "packagesPath": "/Users/rolosworld/.nuget/packages/",
+        "outputPath": "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rolosworld/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Logic/StoreApp.Logic.csproj": {
+                "projectPath": "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Logic/StoreApp.Logic.csproj"
+              },
+              "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Models/StoreApp.Models.csproj": {
+                "projectPath": "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Models/StoreApp.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "ConsoleTables": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.11.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+2022-06-07 16:33:08.618 +05:30 [INF] Started
+2022-06-07 16:33:08.671 +05:30 [INF] Connected to DB
+2022-06-07 16:33:34.437 +05:30 [INF] Inserted to customers table
+2022-06-07 16:33:53.094 +05:30 [INF] Inserted to customers table
+2022-06-07 16:33:55.764 +05:30 [INF] Retrieved from customers table
+2022-06-07 16:34:00.667 +05:30 [INF] Retrieved from customers table
+2022-06-07 16:34:05.788 +05:30 [INF] Retrieved from customers table
+2022-06-07 16:34:27.003 +05:30 [INF] Inserted to store fronts
+2022-06-07 16:34:35.298 +05:30 [INF] Inserted to store fronts
+2022-06-07 16:34:39.476 +05:30 [INF] Retrieved from store fronts
+2022-06-07 16:34:44.850 +05:30 [INF] Retrieved from store fronts
+2022-06-07 16:34:49.988 +05:30 [INF] Retrieved from store fronts
+2022-06-07 16:35:15.751 +05:30 [INF] Inserted line item & product
+2022-06-07 16:35:35.127 +05:30 [INF] Inserted line item & product
+2022-06-07 16:36:03.444 +05:30 [INF] Inserted line item & product
+2022-06-07 16:36:12.544 +05:30 [INF] Inserted line item & product
+2022-06-07 16:37:02.116 +05:30 [INF] Started
+2022-06-07 16:37:02.170 +05:30 [INF] Connected to DB
+2022-06-07 16:37:16.587 +05:30 [INF] Removed line item & product
+2022-06-07 16:37:36.898 +05:30 [INF] Updated quantity in line item
+2022-06-07 16:37:47.950 +05:30 [INF] Retrieved from store fronts
+2022-06-07 16:40:10.440 +05:30 [INF] Started
+2022-06-07 16:40:10.495 +05:30 [INF] Connected to DB
+2022-06-07 16:40:18.454 +05:30 [INF] Retrieved from store fronts
+2022-06-07 16:40:25.059 +05:30 [INF] Retrieved from store fronts
+2022-06-07 16:41:00.707 +05:30 [INF] Retrieved from customers
+2022-06-07 16:41:03.377 +05:30 [INF] Retrieved from store fronts
+2022-06-07 16:42:15.149 +05:30 [INF] Started
+2022-06-07 16:42:15.200 +05:30 [INF] Connected to DB
+2022-06-07 16:42:18.350 +05:30 [INF] Retrieved from customers
+2022-06-07 16:42:20.592 +05:30 [INF] Retrieved from store fronts
+2022-06-07 16:43:51.242 +05:30 [INF] Started
+2022-06-07 16:43:51.295 +05:30 [INF] Connected to DB
+2022-06-07 16:43:54.853 +05:30 [INF] Retrieved from customers
+2022-06-07 16:43:56.328 +05:30 [INF] Retrieved from store fronts
+2022-06-07 16:46:41.856 +05:30 [INF] Started
+2022-06-07 16:46:41.914 +05:30 [INF] Connected to DB
+2022-06-07 16:46:46.526 +05:30 [INF] Retrieved from customers
+2022-06-07 16:46:48.287 +05:30 [INF] Retrieved from store fronts
+2022-06-07 16:48:27.484 +05:30 [INF] Created order successfully
+2022-06-07 16:48:35.892 +05:30 [INF] Retrieved from customers table
+2022-06-07 16:48:54.056 +05:30 [INF] Retrieved from store fronts
+2022-06-07 16:50:01.965 +05:30 [INF] Started
+2022-06-07 16:50:02.018 +05:30 [INF] Connected to DB

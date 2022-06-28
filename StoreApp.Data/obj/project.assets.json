@@ -1,0 +1,152 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "MySqlConnector/2.1.10": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {}
+        }
+      },
+      "StoreApp.Extensions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/StoreApp.Extensions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StoreApp.Extensions.dll": {}
+        }
+      },
+      "StoreApp.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/StoreApp.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StoreApp.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MySqlConnector/2.1.10": {
+      "sha512": "aVvetx5uRWlfnxXlbybf4t6plnH5IGrXSue8R2ZsBOAH8VfS1GuNYqQ4KREVAzN7JexPbhf41btg8pv34eBTrA==",
+      "type": "package",
+      "path": "mysqlconnector/2.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net45/MySqlConnector.dll",
+        "lib/net45/MySqlConnector.xml",
+        "lib/net461/MySqlConnector.dll",
+        "lib/net461/MySqlConnector.xml",
+        "lib/net471/MySqlConnector.dll",
+        "lib/net471/MySqlConnector.xml",
+        "lib/net5.0/MySqlConnector.dll",
+        "lib/net5.0/MySqlConnector.xml",
+        "lib/net6.0/MySqlConnector.dll",
+        "lib/net6.0/MySqlConnector.xml",
+        "lib/netcoreapp3.1/MySqlConnector.dll",
+        "lib/netcoreapp3.1/MySqlConnector.xml",
+        "lib/netstandard2.0/MySqlConnector.dll",
+        "lib/netstandard2.0/MySqlConnector.xml",
+        "lib/netstandard2.1/MySqlConnector.dll",
+        "lib/netstandard2.1/MySqlConnector.xml",
+        "logo.png",
+        "mysqlconnector.2.1.10.nupkg.sha512",
+        "mysqlconnector.nuspec"
+      ]
+    },
+    "StoreApp.Extensions/1.0.0": {
+      "type": "project",
+      "path": "../StoreApp.Extensions/StoreApp.Extensions.csproj",
+      "msbuildProject": "../StoreApp.Extensions/StoreApp.Extensions.csproj"
+    },
+    "StoreApp.Models/1.0.0": {
+      "type": "project",
+      "path": "../StoreApp.Models/StoreApp.Models.csproj",
+      "msbuildProject": "../StoreApp.Models/StoreApp.Models.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "MySqlConnector >= 2.1.10",
+      "StoreApp.Extensions >= 1.0.0",
+      "StoreApp.Models >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/rolosworld/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Data/StoreApp.Data.csproj",
+      "projectName": "StoreApp.Data",
+      "projectPath": "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Data/StoreApp.Data.csproj",
+      "packagesPath": "/Users/rolosworld/.nuget/packages/",
+      "outputPath": "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Data/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/rolosworld/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Extensions/StoreApp.Extensions.csproj": {
+              "projectPath": "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Extensions/StoreApp.Extensions.csproj"
+            },
+            "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Models/StoreApp.Models.csproj": {
+              "projectPath": "/Users/rolosworld/Desktop/StoreApp 6/StoreApp/StoreApp.Models/StoreApp.Models.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "MySqlConnector": {
+            "target": "Package",
+            "version": "[2.1.10, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
